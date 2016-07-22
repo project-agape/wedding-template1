@@ -1,17 +1,17 @@
-body
-  font-family: 'Varela'
+
+html,body
+  margin: 0
   color: #555555
 
 //Global
 .stylized
-  font-family: 'Gotham-Medium','sans-serif'
+  font-family: 'Back-to-Black'
 
 .bold-stylized
   font-family: 'Montserrat','sans-serif'
 
 .section-header
   text-transform: uppercase
-  text-align: center
 
 .section-spacer
   width: 100px
@@ -24,13 +24,51 @@ body
 
 #cover
   position: relative
-  top: -148px
-  background-image: url('img/cover-bg.jpg')
-
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('img/cover-bg.jpg')
   background-attachment: fixed
   background-size: cover
   background-position: center center
   height: 100vh
+  .container
+    height: inherit
+    .intro-text-container
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      .intro-header
+        .into-header-header-text
+          color: white
+          font-size: 7em
+          text-align: left
+          width: 50%
+          word-break: break-word
+          line-height: 150px
+      .caption
+        margin: 30px 0
+        color: white
+        font-size: 2em
+        .intro-date
+          display: block
+          font-family: 'Gotham-Light'
+        .intro-location
+          display: block
+          margin-top: 15px
+      .intro-button-container
+        margin: 30px 0
+        .intro-button
+          background-color: white
+          color: black
+          font-size: 16px
+          display: block
+          width: fit-content
+          padding: 30px 60px
+          text-decoration: none
+          transition: all 0.3s ease
+          -webkit-transition: all 0.3s ease
+          -o-transition: all 0.3s ease
 
 
 
