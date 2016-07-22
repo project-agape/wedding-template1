@@ -1,0 +1,24 @@
+- id: 1
+  name: OUR STORY
+  url: our-story
+
+- id: 2
+  name: PEOPLE
+  url: people
+
+- id: 3
+  name: VENUE
+  url: venue
+
+- id: 4
+  name: GALLERY
+  url: gallery
+
+- id: 5
+  name: RSVP
+  url: rsvp
+
+- id: 6
+  name: Gift
+  url: gift-registration
+
