@@ -1,22 +1,21 @@
 
 html,body
+  font-family: 'Gotham-Light', 'sans-serif'
   margin: 0
   color: #555555
 
 //Global
 .stylized
-  font-family: 'Back-to-Black'
+  font-family: 'Back-to-Black','sans-serif'
+  color: white
 
-.bold-stylized
-  font-family: 'Montserrat','sans-serif'
+
+.stylized-header
+  font-family: 'Angelique-Rose','sans-serif'
+  color: #a4a4a4
 
 .section-header
   text-transform: uppercase
-
-.section-spacer
-  width: 100px
-  border-top: 5px solid #ef5350
-  margin: 15px auto 20px
 
 .no-gutter
   padding-left: 0
@@ -49,13 +48,14 @@ html,body
       .caption
         margin: 30px 0
         color: white
-        font-size: 2em
+        font-size: 2.5em
         .intro-date
           display: block
           font-family: 'Gotham-Light'
         .intro-location
           display: block
           margin-top: 15px
+          font-family: 'Gotham-Medium'
       .intro-button-container
         margin: 30px 0
         .intro-button
@@ -69,6 +69,201 @@ html,body
           transition: all 0.3s ease
           -webkit-transition: all 0.3s ease
           -o-transition: all 0.3s ease
+
+#the-beginning
+  position: relative
+  height: 100vh
+  .section-container
+    height: inherit
+    .left-section
+      padding-left: 15px
+      padding-right: 15px
+      float: left
+      width: 50%
+      background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url('img/the-beginning-bg.jpg')
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center center
+      height: inherit
+      .content-container
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        .content-header
+          letter-spacing: 10px
+          font-size: 5em
+          margin: 0
+          text-align: center
+    .right-section
+      background-color: #f7f7f7
+      padding-left: 15px
+      padding-right: 15px
+      float: left
+      width: 50%
+      height: inherit
+      .content-container
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        .content-header
+          font-size: 5.5em
+          text-align: center
+        .content-description
+          max-width: 80%
+          margin: 50px auto 0
+          .content-text
+            color: #777777
+            font-size: 1.5em
+            line-height: 2.5em
+
+#couple
+  position: relative
+  height: 100vh
+  .section-container
+    height: inherit
+    .left-section
+      float: left
+      height: inherit
+      width: 50%
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img/groom.jpg')
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center center
+    .content-header-container
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      left: 0
+      right: 0
+      .content-header
+        text-align: center
+        font-size: 7em
+        letter-spacing: 10px
+    .right-section
+      float: left
+      height: inherit
+      width: 50%
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img/bride.jpg')
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center center
+
+#wedding-detail
+  position: relative
+  height: 100vh
+  .section-container
+    height: inherit
+    .left-section
+      background-color: #f7f7f7
+      padding-left: 15px
+      padding-right: 15px
+      float: left
+      width: 50%
+      height: inherit
+      .content-container
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        .content-header
+          font-size: 5.5em
+          text-align: center
+          letter-spacing: 10px
+        .content-description
+          max-width: 80%
+          margin: 50px auto 0
+          .content-text
+            color: #777777
+            font-size: 1.5em
+            line-height: 2.5em
+
+    .right-section
+      padding-left: 15px
+      padding-right: 15px
+      float: left
+      width: 50%
+      background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url('img/the-beginning-bg.jpg')
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center center
+      height: inherit
+      .content-container
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        .content-header
+          font-size: 5em
+          margin: 0
+          text-align: center
+
+#rsvp
+  position: relative
+  height: 100vh
+  .section-container
+    height: inherit
+    .left-section
+      padding-left: 15px
+      padding-right: 15px
+      float: left
+      width: 50%
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img/rsvp-bg.jpg')
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center center
+      height: inherit
+      .content-container
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        .content-header
+          letter-spacing: 10px
+          font-size: 5em
+          margin: 0
+          text-align: center
+    .right-section
+      background-color: #f7f7f7
+      padding-left: 15px
+      padding-right: 15px
+      float: left
+      width: 50%
+      height: inherit
+      .content-container
+        position: relative
+        #form-content
+          .form-item
+            .content-title
+              display: inline-block
+              font-size: 3em
+              letter-spacing: 5px
+            .content-input
+              color: #777777
+              display: inline-block
+              background-color: transparent
+              outline: none
+              border-top: 0
+              border-left: 0
+              border-right: 0
+              border-bottom: 1px solid #a4a4a4
+              border-radius: 0 !important
+              box-shadow: none
+              -webkit-appearance: none
 
 
 
