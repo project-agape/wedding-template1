@@ -8,13 +8,13 @@
                 <span></span>
                 <span></span>
             </button>
-            <a class="navbar-brand hidden-lg" href="#">
-                <h2 class="stylized">JAKE & JANE</h2>
+            <a class="navbar-brand" href="#">
+                <h2 class="brand-logo stylized">{{ site.brand-logo-name }}</h2>
             </a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-right-collapse">
             <ul class="nav navbar-nav">
-                {% for navbarMenu in site.data.navbar %}
+                {% for navbarMenu in site.navbar-menu %}
                 <li class="navbar-menu">
                     <a class="menu" href="#{{ navbarMenu.url }}"> {{ navbarMenu.name | upcase }}</a>
                 </li>
