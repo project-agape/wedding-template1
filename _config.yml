@@ -14,3 +14,25 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+brand-logo-name: "Jake & Jane"
+
+navbar-menu:
+  - id: 1
+    name: The Beginning
+    url: the-beginning
+
+  - id: 2
+    name: Wedding Details
+    url: wedding-details
+
+  - id: 3
+    name: RSVP
+    url: rsvp
+
+cover-section:
+  intro-date: "February 14, 2017"
+  intro-location: "Golden Park, Italy"
+
+
+
