@@ -1,1 +1,1 @@
-# simple-template1
+# wedding-template1
