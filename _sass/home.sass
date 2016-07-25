@@ -38,7 +38,7 @@ html,body
       -ms-transform: translateY(-50%)
       -o-transform: translateY(-50%)
       .intro-header
-        .into-header-header-text
+        .into-header-text
           color: white
           font-size: 7em
           text-align: left
@@ -326,4 +326,257 @@ html,body
     margin: 20px auto
     color: white
     text-align: center
+
+@media (max-width: 1440px)
+  #cover
+    .container
+      .intro-text-container
+        .intro-header
+          .into-header-text
+            font-size: 4em
+            line-height: 100px
+            width: 30%
+        .caption
+          .intro-date
+            font-size: 24px
+          .intro-location
+            font-size: 24px
+
+  #the-beginning
+    .section-container
+      .right-section
+        .content-container
+          .content-header
+            font-size: 4.5em
+          .content-description
+            .content-text
+              font-size: 1.2em
+
+  #wedding-detail
+    .section-container
+      .left-section
+        .content-container
+          .content-header
+            font-size: 4.5em
+          .content-description
+            .content-text
+              font-size: 1.2em
+
+  #rsvp
+    .section-container
+      .right-section
+        .content-container
+          #form-content
+            .form-item
+              .content-title
+                font-size: 2.5em
+
+@media (max-width: $screen-sm-max)
+  #cover
+    .container
+      .intro-text-container
+        .intro-header
+          .into-header-text
+            font-size: 6em
+            width: 50%
+            line-height: 150px
+
+  #the-beginning
+    .section-container
+      .left-section
+        .content-container
+          .content-header
+            font-size: 3.5em
+
+  #wedding-detail
+    .section-container
+      .right-section
+        .content-container
+          .content-header
+            font-size: 3.5em
+
+  #rsvp
+    .section-container
+      .left-section
+        .content-container
+          .content-header
+            font-size: 3.5em
+
+      .right-section
+        .content-container
+          #form-content
+            .form-item
+              .content-title
+                font-size: 2.5em
+
+@media (max-width: $screen-xs-max)
+  #cover
+    .container
+      .intro-text-container
+        .intro-header
+          .into-header-text
+            font-size: 4em
+            line-height: 100px
+
+  #the-beginning
+    height: auto
+    .section-container
+      .left-section
+        height: auto
+        width: 100%
+        .content-container
+          padding: 150px 0
+          top: 0
+          transform: none
+      .right-section
+        width: 100%
+        height: auto
+        padding: 30px 0
+        .content-container
+          top: 0
+          transform: none
+          .content-header
+            font-size: 4em
+          .content-description
+            max-width: 90%
+            margin-top: 30px
+
+  #couple
+    height: auto
+    .section-container
+      .left-section
+        height: auto
+        padding: 150px 0
+        width: 100%
+      .content-header-container
+        .content-header
+          font-size: 5em
+          margin: 0
+      .right-section
+        height: auto
+        padding: 150px 0
+        width: 100%
+
+  #wedding-detail
+    height: auto
+    .section-container
+      .left-section
+        background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url('img/the-beginning-bg.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        height: auto
+        width: 100%
+        .content-container
+          padding: 150px 0
+          top: 0
+          transform: none
+          .content-header
+            font-size: 4em
+      .right-section
+        background-image: none
+        width: 100%
+        height: auto
+        padding: 30px 0
+        background-color: #f7f7f7
+        .content-container
+          top: 0
+          transform: none
+          .content-header
+            font-size: 4em
+          .content-description
+            max-width: 90%
+            margin: 30px auto 0
+            color: #777777
+            font-size: 1.2em
+            line-height: 2.5em
+
+  #rsvp
+    height: auto
+    .section-container
+      .left-section
+        width: 100%
+        .content-container
+          top: 0
+          transform: none
+          padding: 150px 0
+      .right-section
+        width: 100%
+        .content-container
+          top: 0
+          transform: none
+          padding: 50px 0
+
+@media (max-width: 568px)
+  #cover
+    .container
+      .intro-text-container
+        top: 0
+        transform: none
+        padding: 100px 0 50px
+        .intro-header
+          .into-header-text
+            text-align: center
+            width: 100%
+        .caption
+          text-align: center
+          .intro-date
+            font-size: 18px
+          .intro-location
+            font-size: 18px
+            margin-top: 5px
+
+  #the-beginning
+    .section-container
+      .left-section
+        .content-container
+          padding: 100px 0
+          .content-header
+            font-size: 2.5em
+      .right-section
+        .content-container
+          .content-header
+            font-size: 3.5em
+
+  #couple
+    .section-container
+      .content-header-container
+        .content-header
+          font-size: 2.5em
+      .left-section
+        padding: 100px 0
+      .right-section
+        padding: 100px 0
+
+  #wedding-detail
+    .section-container
+      .left-section
+        .content-container
+          padding: 100px 0
+          .content-header
+            font-size: 2.5em
+      .right-section
+        .content-container
+          .content-header
+            font-size: 3.5em
+
+  #rsvp
+    .section-container
+      .left-section
+        .content-container
+          .content-header
+            font-size: 2.5em
+      .right-section
+        .content-container
+          padding: 100px 0
+          #form-content
+            .form-item
+              .content-title
+                font-size: 1.8em
+
+
+
+
+
+
 
