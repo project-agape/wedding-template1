@@ -24,7 +24,7 @@ navbar-menu:
 
   - id: 2
     name: Wedding Details
-    url: wedding-details
+    url: wedding-detail
 
   - id: 3
     name: RSVP
