@@ -157,6 +157,52 @@ html,body
       background-size: cover
       background-position: center center
 
+#countdown
+  position: relative
+  margin: 70px auto
+  padding: 30px 0
+  background-color: white
+  .content-container
+    .content-header
+      font-size: 5.5em
+      text-align: center
+  #clock
+    .item-list
+      margin: 30px 0
+      .item-container
+        position: relative
+        border: 2px solid #a4a4a4
+        border-radius: 50%
+        padding: 75px 5px
+        height: 220px
+        width: 220px
+        color: #a4a4a4
+        margin: 0 auto
+        text-transform: lowercase
+        .countdown-name
+          display: block
+          text-align: center
+          padding: 50px 0
+          font-size: 34px
+          letter-spacing: 5px
+        .countdown-value
+          position: relative
+          display: block
+          text-align: center
+          margin-left: auto
+          margin-right: auto
+          .countdown-number
+            font-size: 44px
+            position: absolute
+            top: 50%
+            left: 0
+            right: 0
+            transform: translateY(-50%)
+            -webkit-transform: translateY(-50%)
+            -moz-transform: translateY(-50%)
+            -ms-transform: translateY(-50%)
+            -o-transform: translateY(-50%)
+
 #wedding-detail
   position: relative
   height: 100vh
@@ -282,8 +328,6 @@ html,body
               padding: 20px 30px
               margin-top: 30px
               font-size: 1.5em
-
-
 
 .modal.fade
   .modal-dialog

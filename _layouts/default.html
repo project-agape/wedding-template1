@@ -32,42 +32,8 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="{{'js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $("#form-content").submit(function(){
-      $("#ss-submit").attr("disabled", true);
-      setTimeout(function(){
-        $("#ss-submit").attr("disabled", false);
-      }, 1000);
-    });
-
-    $("#hidden_iframe").on('load',function () {
-      $("#myModal").modal('show');
-      $("#form-content")[0].reset();
-      setTimeout(function(){
-        $("#myModal").modal('hide');
-      }, 2000);
-    });
-  });
-
-  var navbarMenu = $('nav.navbar-default .container .navbar-nav .navbar-menu a');
-  $(function() {
-    navbarMenu.click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top
-          }, 700);
-          return false;
-        }
-      }
-    });
-  });
-</script>
-<!--<script type="text/javascript" src="{{'js/home.js' | prepend: site.baseurl }}"></script>-->
-
+<script type="text/javascript" src="{{'js/jquery.countdown.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{'js/kinetic-v5.1.0.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{'js/home.js' | prepend: site.baseurl }}"></script>
 </body>
-
 </html>
