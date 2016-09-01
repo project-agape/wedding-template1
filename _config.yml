@@ -28,7 +28,7 @@ navbar-menu:
 
   - id: 3
     name: Photos
-    url: photos
+    url: our-photo
 
   - id: 4
     name: RSVP
