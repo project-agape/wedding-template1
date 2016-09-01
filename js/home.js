@@ -4,7 +4,7 @@ main.init = function(){
     main.onNavbarScroll();
     main.onIconTransition();
     main.initCountDown();
-    // main.onMenuClick();
+    main.onMenuClick();
     main.onClickBrandLogo();
     main.onClickIntroButton();
     main.onFormSubmit();
@@ -77,7 +77,7 @@ main.onMenuClick = function(){
             menu = target;
         $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 80
+            'scrollTop': $target.offset().top + 0
         }, 700, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
