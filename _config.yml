@@ -41,5 +41,29 @@ cover-section:
 the-beginning:
   content-description: "The most obvious phyiscal phenomenon that is directly affected by the gravity of the moon are the tides of the ocean. The tides are an integral part of how maritime life is regulated and the comings and goings of the fishing world in coastal communities. But not very many people know that at certain times of the year when the orbits of the earth bring the sun and moon into right alignment."
 
+wedding-detail:
+  ceremony:
+    section-title: "Ceremony"
+    section-time: "4:30 PM"
+    section-description: "The ceremony will be held indoors at the Richmond Hill Country Club. Please arrive 15 minutes earlier."
 
+  cocktail-hour:
+    section-title: "Cocktail Hour"
+    section-time: "5:30 PM"
+    section-description: "The cocktail hour will immediately follow the ceremony in the same location. Please enjoy a cocktail or two and some savoury treats while we take professional group pictures with our atttendees."
+
+  dinner:
+    section-title: "Dinner & Dance"
+    section-time: "6:30 PM"
+    section-description: "The dinner and dance will immediately follow the ceremony in the same location. Please enjoy a cocktail or two and some savoury treats while we take professional group pictures with our atttendees."
+
+venue:
+  wedding-location: "Palazzo Verde, Las Pinas, Calabarzon, Philippines"
+  wedding-link: "https://www.google.com.ph/maps/dir//Our+Lady+of+Peace+and+Good+Voyage+Shrine,+Dela+Paz+St,+Antipolo,+Rizal/@14.5886514,121.1747128,18.37z/data=!4m15!1m6!3m5!1s0x3397bf53fd15d2b1:0xa23619ce8136cfc6!2sOur+Lady+of+Peace+and+Good+Voyage+Shrine!8m2!3d14.587638!4d121.1766565!4m7!1m0!1m5!1m1!1s0x3397bf53fd15d2b1:0xa23619ce8136cfc6!2m2!1d121.1766565!2d14.587638"
+
+gallery:
+  - image: https://res.cloudinary.com/design-studio/image/upload/wedding-template/gallery/image-7.jpg
+  - image: https://res.cloudinary.com/design-studio/image/upload/wedding-template/gallery/image-8.jpg
+  - image: https://res.cloudinary.com/design-studio/image/upload/wedding-template/gallery/image-9.jpg
+  - image: https://res.cloudinary.com/design-studio/image/upload/wedding-template/gallery/image-10.jpg
 

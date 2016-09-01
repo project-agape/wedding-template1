@@ -1,17 +1,25 @@
 <div class="container-fluid no-gutter section-container visible-lg visible-md visible-sm hidden-xs">
     <div class="left-section">
         <div class="content-container">
-            <h1 class="content-header stylized-header">Location</h1>
-            <div class="content-description">
-                <p class="content-text">{{ site.the-beginning.content-description }}</p>
+            <div class="section-content">
+               <h2 class="section-title stylized-header">{{ site.wedding-detail.ceremony.section-title }}</h2>
+                <time class="section-time">Time: {{ site.wedding-detail.ceremony.section-time }}</time>
+                <p class="section-description">{{ site.wedding-detail.ceremony.section-description }}</p>
+            </div>
+            <div class="section-content">
+                <h2 class="section-title stylized-header">{{ site.wedding-detail.cocktail-hour.section-title }}</h2>
+                <time class="section-time">Time: {{ site.wedding-detail.cocktail-hour.section-time }}</time>
+                <p class="section-description">{{ site.wedding-detail.cocktail-hour.section-description }}</p>
+            </div>
+            <div class="section-content">
+                <h2 class="section-title stylized-header">{{ site.wedding-detail.dinner.section-title }}</h2>
+                <time class="section-time">Time: {{ site.wedding-detail.dinner.section-time }}</time>
+                <p class="section-description">{{ site.wedding-detail.dinner.section-description }}</p>
             </div>
         </div>
-
     </div>
     <div class="right-section">
-        <div class="content-container">
-            <h1 class="content-header stylized">wedding details</h1>
-        </div>
+      <div id="map"></div>
     </div>
 </div>
 

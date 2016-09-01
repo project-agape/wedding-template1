@@ -1,0 +1,16 @@
+<div class="container-fluid no-gutter">
+    <div class="left-section">
+        <div class="content-container">
+            <h1 class="content-header stylized">our photos</h1>
+        </div>
+    </div>
+    <div class="right-section">
+        <div class="content-container">
+            {% for gallery in site.gallery %}
+            <div class="col-md-6 no-gutter gallery-item">
+                <img src="{{ gallery.image }}" class="gallery-image"/>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
