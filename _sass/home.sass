@@ -164,7 +164,7 @@ html,body
   background-color: white
   .content-container
     .content-header
-      font-size: 5.5em
+      font-size: 4em
       text-align: center
   #clock
     .item-list
@@ -279,7 +279,6 @@ html,body
             line-height: 30px
             padding-right: 25%
             margin: 0
-
 
     .right-section
       float: left
@@ -425,9 +424,24 @@ html,body
             font-size: 24px
 
   #the-beginning
+    height: auto
     .section-container
-      .right-section
+      .left-section
+        padding: 250px 0
         .content-container
+          top: 0
+          transform: none
+          -moz-transform: none
+          -o-transform: none
+          -ms-transform: none
+      .right-section
+        padding: 76px 0
+        .content-container
+          top: 0
+          transform: none
+          -moz-transform: none
+          -o-transform: none
+          -ms-transform: none
           .content-header
             font-size: 4.5em
           .content-description
@@ -435,14 +449,7 @@ html,body
               font-size: 1.2em
 
   #wedding-detail
-    .section-container
-      .left-section
-        .content-container
-          .content-header
-            font-size: 4.5em
-          .content-description
-            .content-text
-              font-size: 1.2em
+    height: 110rem
 
   #rsvp
     .section-container
@@ -466,30 +473,86 @@ html,body
   #the-beginning
     .section-container
       .left-section
+        width: 100%
         .content-container
           .content-header
             font-size: 3.5em
+      .right-section
+        width: 100%
+
+  #couple
+    height: auto
+    .section-container
+      .left-section
+        height: auto
+        padding: 200px 0
+        width: 100%
+      .content-header-container
+        .content-header
+          font-size: 5em
+          margin: 0
+      .right-section
+        height: auto
+        padding: 200px 0
+        width: 100%
+
+  #our-photo
+    .left-section
+      width: 100%
+      height: auto
+      padding: 250px 0
+
+    .right-section
+      width: 100%
+      min-height: 0
 
   #wedding-detail
+    height: auto
     .section-container
-      .right-section
+      .left-section
+        width: 100%
+        padding: 50px 0
         .content-container
-          .content-header
-            font-size: 3.5em
+          top: 0
+          transform: none
+          -moz-transform: none
+          -o-transform: none
+          -ms-transform: none
+          text-align: center
+          max-width: 80%
+          .section-content
+            .section-description
+              padding-right: 0
+
+      .right-section
+        width: 100%
+
+  #rsvp
+    height: auto
+    .section-container
+      .left-section
+        width: 100%
+        .content-container
+          top: 0
+          transform: none
+          padding: 150px 0
+      .right-section
+        width: 100%
+        .content-container
+          top: 0
+          transform: none
+          padding: 50px 0
 
   #rsvp
     .section-container
-      .left-section
-        .content-container
-          .content-header
-            font-size: 3.5em
-
       .right-section
         .content-container
           #form-content
-            .form-item
-              .content-title
-                font-size: 2.5em
+            .content-button-container
+              .submit-button
+                display: block
+                margin-left: auto
+                margin-right: auto
 
 @media (max-width: $screen-xs-max)
   #cover
@@ -501,22 +564,9 @@ html,body
             line-height: 100px
 
   #the-beginning
-    height: auto
     .section-container
-      .left-section
-        height: auto
-        width: 100%
-        .content-container
-          padding: 150px 0
-          top: 0
-          transform: none
       .right-section
-        width: 100%
-        height: auto
-        padding: 30px 0
         .content-container
-          top: 0
-          transform: none
           .content-header
             font-size: 4em
           .content-description
@@ -524,64 +574,32 @@ html,body
             margin-top: 30px
 
   #couple
-    height: auto
     .section-container
-      .left-section
-        height: auto
-        padding: 150px 0
-        width: 100%
       .content-header-container
         .content-header
-          font-size: 5em
+          font-size: 4em
           margin: 0
-      .right-section
-        height: auto
-        padding: 150px 0
-        width: 100%
+
+  #our-photo
+    .left-section
+      .content-container
+        .content-header
+          font-size: 4em
 
   #wedding-detail
-    height: auto
     .section-container
       .left-section
-        background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url('img/the-beginning-bg.jpg')
-        background-repeat: no-repeat
-        background-size: cover
-        background-position: center center
-        height: auto
-        width: 100%
-        .content-container
-          padding: 150px 0
-          top: 0
-          transform: none
-          .content-header
-            font-size: 4em
-      .right-section
-        background-image: none
-        width: 100%
-        height: auto
         padding: 30px 0
-        background-color: #f7f7f7
         .content-container
-          top: 0
-          transform: none
-          .content-header
-            font-size: 4em
-          .content-description
-            max-width: 90%
-            margin: 30px auto 0
-            color: #777777
-            font-size: 1.2em
-            line-height: 2.5em
+          padding: 0
 
   #rsvp
     height: auto
     .section-container
       .left-section
-        width: 100%
         .content-container
-          top: 0
-          transform: none
-          padding: 150px 0
+          .content-header
+            font-size: 4em
       .right-section
         width: 100%
         .content-container
@@ -611,10 +629,11 @@ html,body
   #the-beginning
     .section-container
       .left-section
+        padding: 150px 0
         .content-container
-          padding: 100px 0
           .content-header
-            font-size: 2.5em
+            font-size: 3em
+            word-break: break-word
       .right-section
         .content-container
           .content-header
@@ -624,23 +643,40 @@ html,body
     .section-container
       .content-header-container
         .content-header
-          font-size: 2.5em
+          font-size: 3em
+          word-break: break-word
       .left-section
         padding: 100px 0
       .right-section
         padding: 100px 0
 
+  #countdown
+    margin: 10px 0
+    .content-container
+      .content-header
+        font-size: 3em
+    #clock
+      .item-list
+        .item-container
+          height: 200px
+          width: 200px
+
+  #our-photo
+    .left-section
+      .content-container
+        .content-header
+          font-size: 3em
+
   #wedding-detail
     .section-container
       .left-section
-        .content-container
-          padding: 100px 0
-          .content-header
-            font-size: 2.5em
+        padding: 0
+        .content-header
+          font-size: 2.5em
       .right-section
         .content-container
           .content-header
-            font-size: 3.5em
+            font-size: 3em
 
   #rsvp
     .section-container
